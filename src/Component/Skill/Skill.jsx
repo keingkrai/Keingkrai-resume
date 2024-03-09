@@ -1,0 +1,43 @@
+import React from 'react'
+
+function Skill() {
+  return (
+<div class="grid grid-cols-2 gap-4">
+  <div class="relative m-auto mb-10 mt-10">
+    <img class="object-cover w-64 h-64" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="Image 1"/>
+    <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-2">
+    JavaScript is a versatile programming language used to create dynamic and interactive web pages.
+    </div>
+
+  </div>
+
+  <div class="relative m-auto mb-10 mt-10">
+    <img class="object-cover w-64 h-64" src="data:image/png;base64,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" alt="Image 1"/>
+    <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-2">
+    Java is a powerful, object-oriented programming language renowned for its portability, versatility, and widespread usage in building enterprise-level applications, web development, and mobile applications.
+    </div>
+
+  </div>
+
+  <div class="relative m-auto">
+    <img class="object-cover w-64 h-64" src="https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/" alt="Image 1"/>
+    <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-2">
+    Python: High-level, versatile, and widely used across domains like web development, data science, and automation for its simplicity and rich library ecosystem.
+    </div>
+
+  </div>
+
+  <div class="relative m-auto">
+    <img class="object-cover w-64 h-64" src="https://miro.medium.com/v2/resize:fit:792/1*lJ32Bl-lHWmNMUSiSq17gQ.png" alt="Image 1"/>
+    <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-center p-4">
+    
+HTML and CSS: Essential languages for structuring and styling web content, enabling the creation of visually appealing and interactive websites.
+    </div>
+
+  </div>
+</div>
+
+  )
+}
+
+export default Skill
